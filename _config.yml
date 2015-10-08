@@ -1,17 +1,106 @@
+# External gems
+gems:
+  - jekyll-archives # Sorry, not GitHub pages friendly!
+  - jekyll-sitemap
+
+exclude:
+  - "/vendor/"
+
 # Site settings
-title: Clean Blog
-header-img: img/home-bg.jpg
+title: Allen Y. Lin
+subtitle: "Human Computer Interaction, Social Computing and Geography"
 email: linx0344@cs.umn.edu
-description: "Allen Y. Lin's Website"
+name: Allen Y. Lin
+description: > 
+  Researching Social Computing and Geography
 baseurl: ""
-url: "http://www-users.cs.umn.edu/~linx0344"
-twitter_username: cheetah90
-github_username:  cheetah90
-facebook_username:  cheetah90
+url: "http://www-users.cs.umn.edu/~linx0344" # the base hostname & protocol for your site
+cover: "assets/header_image.jpg"
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
-permalink: pretty
-paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+paginate: 3
+paginate_path: "/page:num/"
+
+# Archive settings (see https://github.com/jekyll/jekyll-archives/)
+jekyll-archives: 
+  enabled: 
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+# Disqus comments
+disqus_shortname: bencentra
+
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
+
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+# Social icons and sharing options
+#
+# Social settings are used in two places:
+# * In the footer, as links to your personal profiles
+# * After each blog post for sharing widgets
+# 
+# Example:
+# 
+# social:
+#   - name: Twitter                         # Name of the service
+#     icon: twitter                         # Font Awesome icon to use (minus fa- prefix)
+#     username: "@TheBenCentra"             # (User) Name to display in the footer link
+#     url: https://twitter.com/TheBenCentra # URL of your profile (leave blank to not display in footer)
+#     desc: Follow me on Twitter            # Description to display as link title, etc
+#     share: true                           # Include in the "Share" section of posts
+social:
+  - name: Twitter
+    icon: twitter
+    username: cheetah90
+    url: https://twitter.com/cheetah90
+    desc: Follow me on Twitter
+    share: true
+
+  - name: Facebook
+    icon: facebook
+    username: cheetah90
+    url: 
+    desc: Friend me on Facebook
+    share: true
+
+  - name: GitHub
+    icon: github
+    username: cheetah90
+    url: https://github.com/cheetah90
+    desc: Fork me on GitHub
+    share: false
+
+  - name: LinkedIn
+    icon: linkedin
+    username: cheetah90
+    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    desc: Connect with me on LinkedIn
+    share: true
+
+# Social sharing protocols
+# These are for automatically generating sharing metadata for FB and Twitter
+# OS Protocol is for sharing the source of your site, if you're interested. For more, see osprotocol.com
+protocols:
+    fb_image: "assets/logo.png"
+    fb_image_width: 612
+    fb_image_height: 605
+    fb_image_type: "image/png"
+
+    twitter_image: "assets/logo.png"
+
+    os_repo: "https://github.com/RichardLitt/wordhoardpress.com"
+    os_rcs_type: "git"
+    os_src: "git@github.com:RichardLitt/wordhoardpress.com.git"
