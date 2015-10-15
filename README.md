@@ -1,5 +1,5 @@
 # Useful comamnds
-chmod all files to 644 including subdirectories: `find ~/.www -type d -exec chmod 644 {} \;`
+chmod all files to 644 including subdirectories: `find ~/.www -type f -exec chmod 644 {} \;`
 chmod all files to 701 including subdirectories: `chmod -R 701 ~/.www`
 
 
