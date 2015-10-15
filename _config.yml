@@ -8,13 +8,13 @@ exclude:
 
 # Site settings
 title: Allen Y. Lin
-subtitle: "Human Computer Interaction, Social Computing and Geography"
+subtitle: "Researching Human Computer Interaction, Social Computing and Geography"
 email: linx0344@cs.umn.edu
 name: Allen Y. Lin
 description: > 
   Researching Social Computing and Geography
 baseurl: "http://www-users.cs.umn.edu/~linx0344/"
-url: "http://www-users.cs.umn.edu/~linx0344" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 
 # Build settings
