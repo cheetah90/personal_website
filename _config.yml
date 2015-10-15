@@ -40,10 +40,7 @@ disqus_shortname: bencentra
 
 # Category descriptions (for archive pages)
 descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: 2015
+  - cat: dummy
     desc: "Posts in 2015"
 
 # Social icons and sharing options
@@ -86,7 +83,7 @@ social:
   - name: LinkedIn
     icon: linkedin
     username: cheetah90
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    url: https://www.linkedin.com/pub/allen-lin/20/8a0/517
     desc: Connect with me on LinkedIn
     share: true
 
