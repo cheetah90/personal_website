@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-permalink: /research/
+permalink: research/
 ---
 #Master thesis
 Geography M.A. master thesis, Department of Geography, Environment and Society, the University of Minnesota, Twin Cities. [[Link]]({{ site.baseurl }}/assets/papers/thesis_masters.pdf )
