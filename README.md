@@ -3,7 +3,9 @@ chmod all files to 644 including subdirectories: `find ~/.www -type f -exec chmo
 chmod all files to 701 including subdirectories: `chmod -R 701 ~/.www`
 
 # Useful YAML Configuration 
-```descriptions:
+```
+# Category descriptions (for archive pages)
+descriptions:
   - cat: 
     desc:
 ```
