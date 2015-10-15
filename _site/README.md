@@ -1,3 +1,8 @@
+# Useful comamnds
+chmod all files to 644 including subdirectories: `find ~/.www -type f -exec chmod 644 {} \;`
+chmod all files to 701 including subdirectories: `chmod -R 701 ~/.www`
+
+
 # Centrarium [![Circle CI](https://circleci.com/gh/bencentra/centrarium/tree/master.svg?style=svg)](https://circleci.com/gh/bencentra/centrarium/tree/master)
 
 A simple yet classy theme for your Jekyll website or blog. Customizable to fit your style or brand.
