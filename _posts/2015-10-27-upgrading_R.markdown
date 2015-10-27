@@ -1,13 +1,25 @@
 ---
 layout: post
-title:  "New Personal Website"
-date:   2015-10-15 08:43:59
+title:  "Upgrading R on Mac and migrating libraires"
+date:   2015-10-27 
 author: Allen Y. Lin
-categories: misc
+categories: R
 ---
+This post is migrated from my old blog as it helped me today to solve the exact R upgrading problem. 
 
-New site set up! To avoid paying the fee for web hosting, I decide to take advantages of the free home page space provided by
-the [Department of Computer Science and Engineering, University of Minnesota, Twin Cities](http://www.cs.umn.edu) and migrate my personal webstie here!
-I will start (slowly) moving my old posts from my WordPress site to here if there is merits. 
+Updating R usually involves two things: 1) update R per se, 2) update the libraries/pakcages.
 
-All are welcomed!
+##1. Update R per se
+
+###1.1 First delete the old version:
+```
+rm -rf /Library/Frameworks/R.framework /Applications/R.app
+rm -rf /Library/Receipts/R-*
+```
+
+##2. Migrating the libraries
+In your home directory:
+```
+mkdir Rlibs
+nano .Reviron
+```
