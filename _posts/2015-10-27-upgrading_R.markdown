@@ -26,3 +26,4 @@ nano .Renviron
 ```
 Type in:
 `R_LIBS=~/Rlibs`
+By doing this, you are installing all packages to ~/Rlibs which is independent of R installation.
