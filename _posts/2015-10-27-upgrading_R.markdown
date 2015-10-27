@@ -22,7 +22,7 @@ Second, install the new version from CRAN. Find the suitable version in either s
 In your home directory:
 ```
 mkdir Rlibs
-nano .Reviron
+nano .Renviron
 ```
 Type in:
 `R_LIBS=~/Rlibs`
