@@ -2,6 +2,15 @@
 chmod all files to 644 including subdirectories: `find ~/.www -type f -exec chmod 644 {} \;`
 chmod all files to 701 including subdirectories: `chmod -R 701 ~/.www`
 
+# Useful YAML Configuration 
+```
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: 
+    desc:
+```
+Should be coherent with the `categories` attribute in the {post}.md.
+
 
 # Centrarium [![Circle CI](https://circleci.com/gh/bencentra/centrarium/tree/master.svg?style=svg)](https://circleci.com/gh/bencentra/centrarium/tree/master)
 

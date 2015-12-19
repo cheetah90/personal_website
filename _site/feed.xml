@@ -6,9 +6,44 @@
 </description>
     <link>http://www-users.cs.umn.edu/~linx0344//</link>
     <atom:link href="http://www-users.cs.umn.edu/~linx0344//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Oct 2015 12:25:56 -0500</pubDate>
-    <lastBuildDate>Thu, 15 Oct 2015 12:25:56 -0500</lastBuildDate>
+    <pubDate>Sat, 19 Dec 2015 17:34:38 -0600</pubDate>
+    <lastBuildDate>Sat, 19 Dec 2015 17:34:38 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Upgrading R on Mac and migrating libraires</title>
+        <description>&lt;p&gt;This post is migrated from my old blog as it helped me today to solve the exact R upgrading problem.&lt;/p&gt;
+
+&lt;p&gt;Updating R usually involves two things: 1) update R per se, 2) update the libraries/pakcages.&lt;/p&gt;
+
+&lt;h3 id=&quot;update-r-per-se&quot;&gt;1. Update R per se&lt;/h3&gt;
+
+&lt;p&gt;First delete the old version:
+&lt;code&gt;
+rm -rf /Library/Frameworks/R.framework /Applications/R.app
+rm -rf /Library/Receipts/R-*
+&lt;/code&gt;
+Second, install the new version from CRAN. Find the suitable version in either src or binary&lt;/p&gt;
+
+&lt;h3 id=&quot;migrating-the-libraries&quot;&gt;2. Migrating the libraries&lt;/h3&gt;
+&lt;p&gt;In your home directory:
+&lt;code&gt;
+mkdir Rlibs
+nano .Renviron
+&lt;/code&gt;
+Type in:
+&lt;code&gt;R_LIBS=~/Rlibs&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;By doing this, you are installing all packages to ~/Rlibs which is independent of R installation.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 27 Oct 2015 00:00:00 -0500</pubDate>
+        <link>http://www-users.cs.umn.edu/~linx0344//r/2015/10/27/upgrading_R.html</link>
+        <guid isPermaLink="true">http://www-users.cs.umn.edu/~linx0344//r/2015/10/27/upgrading_R.html</guid>
+        
+        
+        <category>r</category>
+        
+      </item>
     
       <item>
         <title>New Personal Website</title>

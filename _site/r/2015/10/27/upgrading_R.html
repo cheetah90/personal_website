@@ -6,9 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Research</title>
-  <meta name="description" content="Researching Social Computing and Geography
-">
+  <title>Upgrading R on Mac and migrating libraires</title>
+  <meta name="description" content="This post is migrated from my old blog as it helped me today to solve the exact R upgrading problem.">
   
   <meta name="author" content="Allen Y. Lin">
   <meta name="copyright" content="&copy; Allen Y. Lin 2015">
@@ -41,11 +40,10 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- Facebook OGP cards -->
-  <meta property="og:description" content="Researching Social Computing and Geography
-" />
+  <meta property="og:description" content="This post is migrated from my old blog as it helped me today to solve the exact R upgrading problem." />
   <meta property="og:url" content="" />
   <meta property="og:site_name" content="Allen Y. Lin" />
-  <meta property="og:title" content="Research" />
+  <meta property="og:title" content="Upgrading R on Mac and migrating libraires" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="http://www-users.cs.umn.edu/~linx0344/assets/logo.png" />
   <meta property="og:image:type" content="image/png" />
@@ -54,9 +52,8 @@
 
   <!-- Twitter: card tags -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Research">
-  <meta name="twitter:description" content="Researching Social Computing and Geography
-">
+  <meta name="twitter:title" content="Upgrading R on Mac and migrating libraires">
+  <meta name="twitter:description" content="This post is migrated from my old blog as it helped me today to solve the exact R upgrading problem.">
   <meta name="twitter:image" content="http://www-users.cs.umn.edu/~linx0344/assets/logo.png">
   <meta name="twitter:url" content="">
 
@@ -64,7 +61,7 @@
 
 	<!-- Site styles -->
   <link rel="stylesheet" href="http://www-users.cs.umn.edu/~linx0344/css/main.css">
-  <link rel="canonical" href="http://www-users.cs.umn.edu/~linx0344//research/">
+  <link rel="canonical" href="http://www-users.cs.umn.edu/~linx0344//r/2015/10/27/upgrading_R.html">
   <link rel="alternate" type="application/rss+xml" title="Allen Y. Lin" href="http://www-users.cs.umn.edu/~linx0344//feed.xml" />
 </head>
 
@@ -107,29 +104,116 @@
 
 
     <div class="page-content">
-        <div class="wrapper">
-<div class="page">
+        <div class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">Research</h1>
-  </header>
+<div class="post-header-container " >
+	<div class="scrim ">
+		<header class="post-header">
+		  <h1 class="title">Upgrading R on Mac and migrating libraires</h1>
+		  <p class="info">by <strong>Allen Y. Lin</strong></p>
+		</header>
+	</div>
+</div>
 
-  <span class="page-divider">
+<div class="wrapper">
+
+ <span class="page-divider">
   <span class="one"></span>
   <span class="two"></span>
 </span>
+ 
+
+<section class="post-meta">
+	<div class="post-date">October 27, 2015</div>
+	<div class="post-categories">
+	in 
+	  
+		<a href="http://www-users.cs.umn.edu/~linx0344/category/r">R</a>
+	  
+	
+	</div>
+</section>	
+
+<article class="post-content">
+  <p>This post is migrated from my old blog as it helped me today to solve the exact R upgrading problem.</p>
+
+<p>Updating R usually involves two things: 1) update R per se, 2) update the libraries/pakcages.</p>
+
+<h3 id="update-r-per-se">1. Update R per se</h3>
+
+<p>First delete the old version:
+<code>
+rm -rf /Library/Frameworks/R.framework /Applications/R.app
+rm -rf /Library/Receipts/R-*
+</code>
+Second, install the new version from CRAN. Find the suitable version in either src or binary</p>
+
+<h3 id="migrating-the-libraries">2. Migrating the libraries</h3>
+<p>In your home directory:
+<code>
+mkdir Rlibs
+nano .Renviron
+</code>
+Type in:
+<code>R_LIBS=~/Rlibs</code></p>
+
+<p>By doing this, you are installing all packages to ~/Rlibs which is independent of R installation.</p>
+
+</article>
 
 
-  <article class="post-content">
-    <h1 id="master-thesis">Master thesis</h1>
-<p>Geography M.A. master thesis, Department of Geography, Environment and Society, the University of Minnesota, Twin Cities. <a href="http://www-users.cs.umn.edu/~linx0344//assets/papers/thesis_masters.pdf">[Link]</a></p>
 
-<h1 id="peer-reviewed-papers">Peer-reviewed Papers</h1>
-<p><strong>Lin, Allen</strong>, and Francis Harvey. “Spatial Variation of Privacy Measured Through Individual Uniqueness Based on Simple US Demographics Data.” Advances in Spatial Data Handling and Analysis. Springer International Publishing, 2015. 289-298. <a href="http://link.springer.com/chapter/10.1007/978-3-319-19950-4_17#page-1">[Link]</a></p>
 
-<p>Johnson, I., <strong>Lin, Y.</strong>, Li, T., Hall, A., Halfaker, A., Schöning, J., and Hecht, B. (2016) Not at Home on the Range: Peer Production and the Urban/Rural Divide. Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI 2016) . New York: ACM Press</p>
 
-  </article>
+<section class="rss">
+	<p class="rss-subscribe text"><strong>Subscribe <a href="http://www-users.cs.umn.edu/~linx0344/feed.xml">via RSS</a></strong></p>
+</section>
+
+<section class="share">
+  <span>Share: </span>
+  
+  	
+  		<a href="//twitter.com/share?text=Upgrading+R+on+Mac+and+migrating+libraires&url=http://www-users.cs.umn.edu/~linx0344//r/2015/10/27/upgrading_R.html&via=cheetah90"
+  			onclick="window.open(this.href, 'twitter-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-twitter-square fa-lg"></i>
+  		</a>
+  	
+  	
+  	
+  	
+  	
+  
+  	
+  	
+  		<a href="//www.facebook.com/sharer.php?t=Upgrading+R+on+Mac+and+migrating+libraires&u=http://www-users.cs.umn.edu/~linx0344//r/2015/10/27/upgrading_R.html"
+  			onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-facebook-square fa-lg"></i>
+  		</a>
+  	
+  	
+  	
+  	
+  
+  	
+  	
+  	
+  	
+  	
+  
+  	
+  	
+  	
+  	
+  		<a href="//www.linkedin.com/shareArticle?mini=true&url=http://www-users.cs.umn.edu/~linx0344//r/2015/10/27/upgrading_R.html"
+  			onclick="window.open(this.href, 'linkedin-share', 'width=550,height=255');return false;">
+  			<i class="fa fa-linkedin-square fa-lg"></i>
+  		</a>
+  	
+  	
+  
+</section>
+
+
 
 </div>
 </div>
