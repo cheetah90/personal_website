@@ -1,10 +1,9 @@
 ---
-layout: page
-title: About
-permalink: about/
+layout: archive
+permalink: /about/
+title: "About Me"
 ---
+<img src="{{ site.baseurl }}/images/profile_pic.jpg" title="Profile Picture" style="width:380px;height:460px;">
 
-<img src="{{ site.baseurl }}/assets/profile_pic.jpg" title="Profile Picture" class="profile">
+I am a PhD student in Computer Science in [EECS](http://www.mccormick.northwestern.edu/eecs/) at [Northwestern University](http://www.northwestern.edu/). My research interests are at the intersection of Human Computer Interaction, Machine Learning and Geography. My advisor is [Dr. Brent Hecht](http://www.brenthecht.com/)
 
-I am a first year PhD student in Computer Science with interests in Human Computer Interaction, Social Computing and Geography. I am proud to be 
-a part of the [GroupLens](http://grouplens.org/) research group at the University of Minnesota, Twin Cities and working with [Dr. Brent Hecht](http://www.brenthecht.com/) as my research advisor.

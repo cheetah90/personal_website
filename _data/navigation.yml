@@ -1,0 +1,21 @@
+# Site navigation links
+
+- title: Home
+  url: /index.html
+  excerpt: "Return to Home page"
+  image:
+
+- title: Publications
+  url: /publications/
+  excerpt: "My publications"
+  image:
+
+- title: CV
+  url: /about/CV_AllenLin2016.pdf
+  excerpt:
+  image:
+
+- title: About
+  url: /about/
+  exerpt:
+  image:
