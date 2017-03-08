@@ -11,6 +11,8 @@ title: ""
 </div>
 
 ### News
+**Feb 2017**: Went to CSCW 2017 and [presented our work](https://twitter.com/WikiResearch/status/837025691845550081) that addressed the article-as-concept assumption in Wikipedia-based research and technologies.
+
 **Jan 2017**: Three papers accepted at CHI 2017! Please see Publication page for full details. Also selected as a student volunteer! See you in Denver this May!
 
 **Oct 2016**: New personal website at Northwestern!
