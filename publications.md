@@ -4,6 +4,11 @@ permalink: /publications/
 title: ""
 ---
 ### Peer-reviewed Papers
+**WWW 2018**: **Lin, A.Y.**, Ford, J., Adar, E., and Hecht, B. (2018) VizByWiki: Mining Data Visualizations from the Web to Enrich News Articles. Proceedings of the 27th World Wide Web Conference (WWW 2018). 
+
+**CSCW 2018**: Yu, B., Wang, X., **Lin, Y.**, Ren, Y., Terveen, L., Zhu, H. Out With The Old, In With The New? Unpacking Member Turnover in Online Production Groups. Proc. ACM Hum.-Comput. Interact. 1, 2, Article 117.
+[**PDF**](https://www-users.cs.umn.edu/~bowen-yu/Publications/pacmhci117-yuA.pdf)
+
 **ACM CHI 2017**: **Lin, Y.**, Kuehl, K., Schöning. J., Hecht, B. (2017) Understanding “Death by GPS”: A Systematic Study of Catastrophic Incidents Associated with Personal Navigation Technologies. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems. (CHI 2017) New York: ACM Press
 [**PDF**](https://drive.google.com/file/d/0B7_jwJc8w6BZMGhKR0tjVlNuMjA/view?usp=sharing) | [**Interactive Map**](https://cheetah90.github.io/gps_failure/) | [**Dataset**](https://github.com/cheetah90/gps_failure)
 

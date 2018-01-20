@@ -11,6 +11,12 @@ title: ""
 </div>
 
 ### News
+**Dec 2017**: A paper on automatically augmenting news articles with diverse types of data visualizations from Wikipedia has been accepted to WWW 2018! It will be my first WWW and my first time to visit Lyon, France! 😎
+
+**Dec 2017**: I am starting a 3-month internship at Microsoft Research from January, 2018! I will work with wonderful mentors [Justin Cranshaw](http://cranshaw.me/) and [Scott Counts](https://www.microsoft.com/en-us/research/people/counts/)! Feeling excited! 🤩
+
+**Aug 2017** A paper about membership turnover and its effect on Wikipedia has been accepted to CSCW 2018!
+
 **May 2017**: Presented our CHI 2017 paper that analyzed HCI issues in catastrophic car accidents that involved GPS. Yes, the presentation is [available on Youtube!](https://www.youtube.com/watch?v=8sjQlsypBw0&index=24-VefIVFi2iN6j_6fvLSXfTvF)
 
 **Feb 2017**: Went to CSCW 2017 and [presented our work](https://twitter.com/WikiResearch/status/837025691845550081) that addressed the article-as-concept assumption in Wikipedia-based research and technologies.
