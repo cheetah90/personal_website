@@ -11,6 +11,12 @@ title: ""
 </div>
 
 ### News
+**Jan 2019**: [My Microsoft internship paper is accepted to WWW 2019](https://twitter.com/cheetah90/status/1088091032657510401)! Excited to be back to SF on May 13 (which happens to be my birthday 🎂).
+
+**Sept 2018**: Finished a 3-month User Experience Research internship at Google with awesome mentors Jan Blom and Inna Tsirlin! Bye-bye free food and Bay Area and brace myself for Chicago winter! 🥶
+
+**April 2018**: Presented our WWW 2018 paper that recommends data visualizations from Wikimedia Commons to augment news articles reading.
+
 **Dec 2017**: A paper on automatically augmenting news articles with diverse types of data visualizations from Wikipedia has been accepted to WWW 2018! It will be my first WWW and my first time to visit Lyon, France! 😎
 
 **Dec 2017**: I am starting a 3-month internship at Microsoft Research from January, 2018! I will work with wonderful mentors [Justin Cranshaw](http://cranshaw.me/) and [Scott Counts](https://www.microsoft.com/en-us/research/people/counts/)! Feeling excited! 🤩
@@ -22,7 +28,3 @@ title: ""
 **Feb 2017**: Went to CSCW 2017 and [presented our work](https://twitter.com/WikiResearch/status/837025691845550081) that addressed the article-as-concept assumption in Wikipedia-based research and technologies.
 
 **Jan 2017**: Three papers accepted at CHI 2017! Please see Publication page for full details. Also selected as a student volunteer! See you in Denver this May!
-
-**Oct 2016**: New personal website at Northwestern!
-
-**Sept 2016**: Paper on accurately combining Wikipedia articles about the same concept (e.g. "United States" and "History of the United States") accepted at CSCW 2017. 

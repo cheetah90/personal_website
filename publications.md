@@ -4,7 +4,9 @@ permalink: /publications/
 title: ""
 ---
 ### Peer-reviewed Papers
-**WWW 2018**: **Lin, A.Y.**, Ford, J., Adar, E., and Hecht, B. (2018) VizByWiki: Mining Data Visualizations from the Web to Enrich News Articles. Proceedings of the 27th World Wide Web Conference (WWW 2018). 
+**TheWebConf 2019**: **Lin, A.Y.**, Cranshaw, J., and Counts, Scott. (2019) Forecasting U.S. Domestic Migration Using Internet Search Queries. Proceedings of the 2019 World Wide Web Conference. International World Wide Web Conferences Steering Committee, 2019.
+
+**WWW 2018**: **Lin, A.Y.**, Ford, J., Adar, E., and Hecht, B. (2018) VizByWiki: Mining Data Visualizations from the Web to Enrich News Articles. Proceedings of the 2018 World Wide Web Conference. International World Wide Web Conferences Steering Committee, 2018. [**PDF**](http://brenthecht.com/publications/www18_vizbywiki.pdf)
 
 **CSCW 2018**: Yu, B., Wang, X., **Lin, Y.**, Ren, Y., Terveen, L., Zhu, H. Out With The Old, In With The New? Unpacking Member Turnover in Online Production Groups. Proc. ACM Hum.-Comput. Interact. 1, 2, Article 117.
 [**PDF**](https://www-users.cs.umn.edu/~bowen-yu/Publications/pacmhci117-yuA.pdf)
