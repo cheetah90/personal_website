@@ -4,7 +4,10 @@ permalink: /publications/
 title: ""
 ---
 ### Peer-reviewed Papers
-**TheWebConf 2019**: **Lin, A.Y.**, Cranshaw, J., and Counts, Scott. (2019) Forecasting U.S. Domestic Migration Using Internet Search Queries. Proceedings of the 2019 World Wide Web Conference. International World Wide Web Conferences Steering Committee, 2019.
+**TheWebConf 2019**: **Lin, A.Y.**, Cranshaw, J., and Counts, Scott. (2019) Forecasting U.S. Domestic Migration Using Internet Search Queries. Proceedings of the 2019 World Wide Web Conference. International World Wide Web Conferences Steering Committee, 2019. [**PDF**](https://drive.google.com/file/d/1h6IZLmSrDDEAvn6IwTiDhilzkUS8CUfM/view?usp=sharing)
+
+**AAAI ICWSM 2018**: He, S., **Lin, A.Y.**, Adar, E., and Hecht, B. (2018) The_Tower_of_Babel.jpg: The Diversity of Visual Encyclopedic Knowledge Across Wikipedia Language Editions. Proceedings of the International AAAI Conference on Weblogs and Social Media (AAAI ICWSM ’18). Menlo Park, CA: AAAI Press. 
+**Best Paper Award** | [**PDF**](http://brenthecht.com/publications/icwsm2018_imageslanguagewikipedia.pdf) | [**System Demo**](http://whatsincommons.info/icwsm/imgdive/tool.html)
 
 **WWW 2018**: **Lin, A.Y.**, Ford, J., Adar, E., and Hecht, B. (2018) VizByWiki: Mining Data Visualizations from the Web to Enrich News Articles. Proceedings of the 2018 World Wide Web Conference. International World Wide Web Conferences Steering Committee, 2018. [**PDF**](http://brenthecht.com/publications/www18_vizbywiki.pdf)
 
